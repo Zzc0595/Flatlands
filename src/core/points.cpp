@@ -5,5 +5,7 @@ struct Point
     Point(): x(0),y(0) {}//default init
     Point(double x_,double y_): x(x_),y(y_) {} //xy init
     Point(Point& p) : x(p.x),y(p.y) {} //ref copy init
-
+    
 };
+
+constexpr Point origin();
